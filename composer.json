@@ -1,0 +1,20 @@
+{
+    "name": "corycollier/unit-testing-training",
+    "description": "Helping dudes learn unit testing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cory Collier",
+            "email": "corycollier@corycollier.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src/"
+        }
+    }
+}
